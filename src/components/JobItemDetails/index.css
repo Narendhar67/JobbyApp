@@ -1,0 +1,44 @@
+.jobItem-bg {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 3%;
+}
+.description-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Link {
+  color: #6366f1;
+}
+.hr {
+  background-color: #6366f1;
+}
+.skills-List {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.skill-card {
+  display: flex;
+  width: 30%;
+  margin-top: 25px;
+}
+.skill-name {
+  font-weight: 600;
+  margin-left: 10px;
+}
+.lifeAtCompany {
+  display: flex;
+}
+.heading-lifeAtCompany {
+  margin-top: 30px;
+}
+.lifeAtCompany-container {
+  margin-top: 40px;
+}
+.similarJobsList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
