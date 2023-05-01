@@ -3,11 +3,11 @@
   min-height: 100vh;
   display: flex;
   color: #ffffff;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .profile-And-Options-container {
-  min-width: 35%;
+  min-width: 25%;
   padding: 20px;
 }
 .profile-container {
