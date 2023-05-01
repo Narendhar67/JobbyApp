@@ -2,6 +2,7 @@
   background-color: #000000;
   min-height: 100vh;
   padding: 3%;
+  margin: 0px;
 }
 .description-bar {
   display: flex;
@@ -41,4 +42,8 @@
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px;
+}
+.heading-similar-jobs {
+  color: #ffffff;
 }

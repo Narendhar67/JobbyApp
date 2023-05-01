@@ -109,7 +109,7 @@ class JobItemDetails extends Component {
 
     return (
       <div>
-        <h1>Similar Jobs</h1>
+        <h1 className="heading-similar-jobs">Similar Jobs</h1>
         <ul className="similarJobsList">
           {similarJobs.map(each => (
             <SimilarJob key={each.id} jobDetails={each} />
@@ -154,7 +154,6 @@ class JobItemDetails extends Component {
     } = jobDetails
     return (
       <>
-        <Header />
         <div className="job-card">
           <div className="logo-name">
             <img
@@ -219,7 +218,12 @@ class JobItemDetails extends Component {
   }
 
   render() {
-    return <div className="jobItem-bg">{this.renderFinalView()}</div>
+    return (
+      <>
+        <Header />
+        <div className="jobItem-bg">{this.renderFinalView()}</div>
+      </>
+    )
   }
 }
 

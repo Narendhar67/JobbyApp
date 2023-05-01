@@ -1,5 +1,7 @@
 .Link {
   text-decoration: none;
+  margin: 0px;
+  padding: 0px;
 }
 .similar-job-card {
   color: #ffffff;
@@ -8,6 +10,7 @@
   padding: 15px;
   margin-top: 15px;
   margin-right: 25px;
+  margin-left: 0px;
 }
 .single-item {
   width: 30%;
